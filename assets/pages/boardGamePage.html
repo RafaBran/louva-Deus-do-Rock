@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../icons/favicon.ico" type="image/x-icon">
+    <title>louva-a-DEUS DO METAL</title>
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/aboveAll.css">
+    <script src="../scripts/audio.js" async></script>
+    <script src="../scripts/game.js" defer></script>
+
+</head>
+<body class="body-mainPage">
+
+    <audio id="myAudio" autoplay src="../audios/runRudolphMetal.mp3"></audio>
+    <button id="playPauseBtn" onclick="togglePlayPause()">
+    <span id="playIcon"><img class="teste" src="../icons/musicOff.svg" alt=""></span>
+    <span id="pauseIcon" style="display:none;"><img src="../icons/musicOn.svg" alt=""></span>
+    </button>
+
+    <header class="header-mainPage">
+       
+    </header>
+
+    <nav class="nav-mainPage-containner">
+        
+    </nav>
+
+    <main class="main-boardGamePage">
+        <div class="game-board">
+            <img class="clouds" src="../images/clouds.png" alt="">
+            <img class="clouds2" src="../images/clouds.png" alt="">
+            <img class="rudolph" src="../animations/rudolph-animation.gif" alt="">
+            <img class="sbp" src="../images/obstaculo.png" alt="">
+
+            <div class="containner-refreshButton">
+                <button class="refreshButton" id="refreshButton">TENTAR NOVAMENTE</button>
+            </div>
+
+            <div class="score">SCORE: <span id="score">0</span></div>
+        </div>
+    </main>
+
+</body>
+</html> 

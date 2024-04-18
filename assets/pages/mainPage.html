@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../icons/favicon.ico" type="image/x-icon">
+    <title>louva-a-DEUS DO METAL</title>
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/aboveAll.css">
+    <script src="../scripts/audio.js" async></script>
+    <script src="../scripts/mainPage.js"></script>
+</head>
+<body class="body-mainPage">
+
+    <audio id="myAudio" autoplay src="../audios/runRudolphMetal.mp3"></audio>
+    <button id="playPauseBtn" onclick="togglePlayPause()">
+    <span id="playIcon"><img class="teste" src="../icons/musicOff.svg" alt=""></span>
+    <span id="pauseIcon" style="display:none;"><img src="../icons/musicOn.svg" alt=""></span>
+    </button>
+
+    <header class="header-mainPage">
+        <a href="boardGamePage.html">
+            <div class="button button-play  ">JOGAR</div>
+        </a>
+    </header>
+
+    <nav class="nav-mainPage-containner">
+        <div class="nav-mainPage limiter aligner">
+            <div class="button button-mainPage" onclick="exibeAIdeia()">A IDEIA</div>
+            <!-- <div class="button button-mainPage" onclick="exibeOProjeto()">O PROJETO</div> -->
+            <div class="button button-mainPage" onclick="exibeAHistoria()">A HISTÓRIA</div>
+            <div class="button button-mainPage" onclick="exibeOGrupo()">O GRUPO</div>
+        </div>
+    </nav>
+
+    <main class="mainPage-content-containner">
+        <div class="mainPage-content"></div>
+    </main>
+
+</body>
+</html> 

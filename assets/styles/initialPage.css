@@ -1,0 +1,35 @@
+
+.body-initialPage {
+    width: 100%;
+    height: 100vh;
+}
+
+.mainContainner-initialPage {
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo-initialPage {
+    height: 60%;
+    margin-top: 3rem;
+}
+
+.title-initialPage {
+    width: 100%;
+    height: 40%;
+    margin-top: 5rem;
+
+    color: var(--verde-principal);
+    text-align: center;
+    font-family: 'rockit';
+    font-size: 1.5rem;
+}
+
+.span-title {
+    color: var(--cinza-metalico);
+
+}

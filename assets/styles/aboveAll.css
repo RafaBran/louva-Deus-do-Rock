@@ -1,0 +1,43 @@
+/* IMPORTAÇÃO DAS PÁGINAS DE ESTILIZAÇÃO SECUNDÁRIAS */
+@import url(initialPage.css);
+@import url(mainPage.css);
+@import url(gameBoard.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Roboto:wght@400;700&display=swap');
+
+body {
+    background-color: var(--preto-puro);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* IMPORTAÇÃO DE FONTES EXTERNAS */
+@font-face {
+	Font-family: 'rockit';
+	Src: url('../fonts/Rockit.ttf') format('truetype');
+	Font-weight: normal;
+	Font-style: normal;
+    color: #ffffff;
+}
+
+:root {
+    /*FONTES*/
+    --fonte-nota:'Comic Neue', cursive;
+    --fonte-padrao: 'Roboto', sans-serif;
+    --fonte-rock: 'rockit';
+
+    /*CORES*/
+    --preto-puro: #000000;
+    --cinza-metalico: #bfbfbf;
+    --cinza-metalico-escuro: #414141;
+    --verde-principal: #14a30d;
+    --verde-escuro: #14650f;
+    --branco-puro: #ffffff;
+    --cinza: #2e2e2e;
+    --cinza-escuro: #222222;
+    
+}
+
+
+
